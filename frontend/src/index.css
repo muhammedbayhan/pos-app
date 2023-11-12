@@ -5,9 +5,13 @@
 
 body{
     margin: 0;
+    overflow: hidden;
 
 }
 
+.categories::-webkit-scrollbar{
+    display: none;
+}
 
 .ant-btn-primary{
     background-color: #1677ff;
