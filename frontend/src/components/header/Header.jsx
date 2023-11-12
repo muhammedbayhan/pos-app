@@ -23,7 +23,7 @@ const Header = () => {
     <Input className='rounded-full max-w-[800px]' size="large" placeholder="Ürün Ara..." prefix={<SearchOutlined />} />
 
     </div>
-    <div className="menu-links flex justify-between items-center gap-8 md:static fixed bottom-0 md:w-auto w-screen md:bg-transparent bg-white left-0
+    <div className="menu-links flex justify-between items-center gap-8 md:static fixed z-50 bottom-0 md:w-auto w-screen md:bg-transparent bg-white left-0
     md:border-t-0 border-t md:px-0 px-4 py-1
     ">
           <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">

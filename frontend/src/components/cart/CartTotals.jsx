@@ -19,7 +19,7 @@ const CartTotals = () => {
                     </div>
 <div className='flex items-center'>
 <Button  type='primary' size='small' className='w-full !rounded-full' icon={<PlusCircleOutlined />} danger></Button>
-<span className=''>1</span>
+<span className='font-bold'>1</span>
 <Button  type='primary' size='small' className='w-full !rounded-full' icon={<MinusCircleOutlined />} danger></Button>
 
 
