@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header"
 import Categories from "./components/categories/Categories"
+import Products from "./components/products/Products"
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <Categories/>
       </div>
       <div className="products flex-[8]">
-        <div>products</div>
+        <Products/>
       </div>
       <div className="cartTotals">
         <div>cardTotals</div>
