@@ -4,6 +4,7 @@ import HomeView from './views/HomeView';
 import CartView from './views/CartView';
 import BillsView from './views/BillsView';
 import CustomerView from './views/CustomerView';
+import StatisticView from './views/StatisticView';
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
   <Route path='/cart' element={<CartView/>}/>
   <Route path='/bills' element={<BillsView/>}/>
   <Route path='/customers' element={<CustomerView/>}/>
+  <Route path='/statistic' element={<StatisticView/>}/>
 </Routes>
 </BrowserRouter>
     </>
