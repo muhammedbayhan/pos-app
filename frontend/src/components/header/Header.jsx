@@ -7,6 +7,7 @@ import {  SearchOutlined,
     BarChartOutlined,
     LogoutOutlined} from '@ant-design/icons';
 import { Badge, Input } from 'antd';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -26,38 +27,38 @@ const Header = () => {
     <div className="menu-links flex justify-between items-center gap-8 md:static fixed z-50 bottom-0 md:w-auto w-screen md:bg-transparent bg-white left-0
     md:border-t-0 border-t md:px-0 px-4 py-1
     ">
-          <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+          <Link to={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <HomeOutlined className="md:text-2xl text-xl" />
             <span className="md:text-xs text-[10px]  ">Ana Sayfa</span>
-          </a>
+          </Link>
           <Badge count={5} className='md:flex hidden' >
-      <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+      <Link to={"/cart"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <ShoppingCartOutlined className="md:text-2xl text-xl  " />
             <span className="md:text-xs text-[10px]">Sepet</span>
-          </a>
+          </Link>
       </Badge>
-          <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+          <Link to={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <CopyOutlined className="md:text-2xl text-xl" />
             <span className="md:text-xs text-[10px]">Faturalar</span>
-          </a>
-          <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+          </Link>
+          <Link to={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <UserOutlined className="md:text-2xl text-xl" />
             <span className="md:text-xs text-[10px]">Müşteriler</span>
-          </a>
-          <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+          </Link>
+          <Link to={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <BarChartOutlined className="md:text-2xl text-xl" />
             <span className="md:text-xs text-[10px]">İstatistikler</span>
-          </a>
-          <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+          </Link>
+          <Link to={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <LogoutOutlined  className="md:text-2xl text-xl" />
             <span className="md:text-xs text-[10px]">Çıkış</span>
-          </a>
+          </Link>
         </div>
         <Badge count={5} className='md:hidden flex'>
-      <a href={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
+      <Link to={"/"} className="menu-link flex flex-col items-center hover:text-blue-600 hover:scale-105">
             <ShoppingCartOutlined className="md:text-2xl text-xl  " />
             <span className="md:text-xs text-[10px]">Sepet</span>
-          </a>
+          </Link>
       </Badge>
 </header>
 
