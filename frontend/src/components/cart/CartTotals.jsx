@@ -32,7 +32,7 @@ const CartTotals = () => {
                 <div className='border-t border-b'>
                     <div className='flex justify-between p-2'>
                         <b>Ara Toplam</b>
-                        <span>99₺</span>
+                        <span>999₺</span>
                     </div>
                     <div className='flex justify-between p-2'>
                         <b>KDV %8</b>
